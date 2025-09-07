@@ -14,7 +14,4 @@
 - 「#」や「-」などを対応した文字に置き換える
 
 ### [test3.py](./test3.py)
-- 基本は[test2.py](./test2.py)と変わらず、入力フォルダとファイルの選択を実装
-- 入力ファイルは[test3_input](./test3_input)
-- 出力フォルダは[test3_output](./test3_output)
-- tkinter用はこれで準備できてるはず
+- 
