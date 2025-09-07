@@ -1,4 +1,5 @@
 # 入力されたテキストから特定の文字を取り除く
+
 import re
 
 def replace_char(text: str, mode = 0) -> str:
@@ -41,10 +42,5 @@ def save_file(file_path: str, text: str) -> str:
 
 text = read_file("README.md")  # 読み込むファイルのパスを指定
 
-out1 = replace_char(text)  # 普通に指定するだけのとき
-save_file("test2_output1.txt", out1)
-# print(out1)
-
-out2 = replace_char(text)  # 正規表現を使って[]や()を取り除くとき
-save_file("test2_output2.txt", out2)
-# print(out2)
+out = replace_char(text)
+save_file("test2_output1.txt", out)
